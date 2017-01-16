@@ -17,7 +17,7 @@ function d()
     die();
 }
 
-function dd()
+function ddump()
 {
     $debug = debug_backtrace();
     $args = func_get_args();
